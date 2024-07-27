@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #252839;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+header {
+    text-align: center;
+    padding: 50px;
+    background-color: #333;
+    color: white;
+    width: 100%;
+}
+
+header img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+section {
+    padding: 50px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: white;
+}
+h2 {
+    font-size: 2em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: white;
+}
+h3 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    color: white;
+}
+label{
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-bottom:20px ;
+    color: white;
+}
+
+.service, .team-member, .contact-info, .map, .contact-form, .social-media, .reviews {
+    margin-bottom: 20px;
+}
+
+.gallery img, .team-photos img {
+    width: 48%;
+    margin: 1%;
+    display: inline-block;
+}
+
+.contact-form label, .contact-form input, .contact-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contact-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #555;
+}
+
+.social-media a {
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 30px;
+    margin: 10px;
+    font-size: 1.4em;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+button:active {
+    background-color: #004494;
+    transform: translateY(0);
+}
+
+p {
+    font-size: 1.1em;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.boton-incioRegresar {
+    background-color: #2a2d40;
+    color: #00ade1;
+}
+
+.boton-incioRegresar:hover {
+    background-color: #0082b8;
+    color: #ffffff;
+}
+
+.boton-perfilRegresar {
+    background-color: #2a2d40;
+    color: #ff6493;
+}
+
+.boton-perfilRegresar:hover {
+    background-color: #da517a;
+    color: #ffffff;
+}
+
+.boton-serviciosRegresar {
+    background-color: #2a2d40;
+    color: #ffdd1c;
+}
+
+.boton-serviciosRegresar:hover {
+    background-color: #cdb110;
+    color: #ffffff;
+}
+
+.boton-equipoRegresar {
+    background-color: #2a2d40;
+    color: #00dc82;
+}
+
+.boton-equipoRegresar:hover {
+    background-color: #00b268;
+    color: #ffffff;
+}
+
+.boton-contactoRegresar {
+    background-color: #2a2d40;
+    color: #dc00d4;
+}
+
+.boton-contactoRegresar:hover {
+    background-color: #b800b2;
+    color: #ffffff;
+}

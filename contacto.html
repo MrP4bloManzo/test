@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contacto | test</title>
+</head>
+<body>
+    <h1>Hi User</h1>
+    <p>Esta es la página de contacto del sitio web.</p>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <div class="contact-info">
+            <p>Dirección: Av Rey Coliman 310-A, La Garita, 28000 Colima, Col.</p>
+            <p>Teléfono: +123 456 789</p>
+            <p>Email: contacto@tallermofles.com</p>
+            <p>Horario: Lunes a Sabado, 9am - 6pm</p>
+        </div>
+        <div class="map">
+            <h3>Ubicación</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d470.8872167315237!2d-103.72394659999999!3d19.2345719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84255000d97dfdbd%3A0x97ebc563e353805f!2sMofles%20el%20Perico%20de%20Uribe!5e0!3m2!1ses-419!2smx!4v1722051136385!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="contact-form">
+            <h3>Formulario de Contacto</h3>
+            <form id="contactForm">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+        <div class="social-media">
+            <h3>Síguenos en:</h3>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+        </div>
+        <div class="reviews">
+            <h3>Opiniones</h3>
+            <div id="reviews"></div>
+        </div>
+    </section>  
+
+
+
+
+    <button class="boton-contactoRegresar" onclick="goToIndexPage()">REGRESAR</button>
+    <script src="app.js"></script>
+</body>
+</html>
